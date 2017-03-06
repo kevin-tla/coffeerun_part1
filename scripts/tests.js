@@ -9,7 +9,4 @@ QUnit.test("hello test", function(assert) {
         var myTruck = new Truck('ncc-1701', new DataStore());
         window.myTruck = myTruck;
     })(window);
-
-
-
 });
